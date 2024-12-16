@@ -25,14 +25,14 @@ const page = () => {
         .
       </p>
       <h2 className="text-2xl font-bold py-4">Interpretation and Definitions</h2>
-      <h3>Interpretation</h3>
+      <h3 className="font-bold text-lg py-2">Interpretation</h3>
       <p>
         The words of which the initial letter is capitalized have meanings
         defined under the following conditions. The following definitions shall
         have the same meaning regardless of whether they appear in singular or
         in plural.
       </p>
-      <h3>Definitions</h3>
+      <h3 className="font-bold text-lg py-2">Definitions</h3>
       <p>For the purposes of this Privacy Policy:</p>
       <ul>
         <li>
@@ -132,8 +132,8 @@ const page = () => {
         </li>
       </ul>
       <h2 className="text-2xl font-bold py-4">Collecting and Using Your Personal Data</h2>
-      <h3>Types of Data Collected</h3>
-      <h4>Personal Data</h4>
+      <h3 className="font-bold text-lg py-2">Types of Data Collected</h3>
+      <h4 className="font-bold pt-4 text-lg">Personal Data</h4>
       <p>
         While using Our Service, We may ask You to provide Us with certain
         personally identifiable information that can be used to contact or
@@ -154,7 +154,7 @@ const page = () => {
           <p>Usage Data</p>
         </li>
       </ul>
-      <h4>Usage Data</h4>
+      <h4 className="font-bold pt-4 text-lg">Usage Data</h4>
       <p>Usage Data is collected automatically when using the Service.</p>
       <p>
         Usage Data may include information such as Your Device's Internet
@@ -176,7 +176,7 @@ const page = () => {
         visit our Service or when You access the Service by or through a mobile
         device.
       </p>
-      <h4>Information from Third-Party Social Media Services</h4>
+      <h4 className="font-bold pt-4 text-lg">Information from Third-Party Social Media Services</h4>
       <p>
         The Company allows You to create an account and log in to use the
         Service through the following Third-party Social Media Services:
@@ -202,7 +202,7 @@ const page = () => {
         registration or otherwise, You are giving the Company permission to use,
         share, and store it in a manner consistent with this Privacy Policy.
       </p>
-      <h4>Tracking Technologies and Cookies</h4>
+      <h4 className="font-bold pt-4 text-lg">Tracking Technologies and Cookies</h4>
       <p>
         We use Cookies and similar tracking technologies to track the activity
         on Our Service and store certain information. Tracking technologies used
@@ -292,7 +292,7 @@ const page = () => {
         cookies, please visit our Cookies Policy or the Cookies section of our
         Privacy Policy.
       </p>
-      <h3>Use of Your Personal Data</h3>
+      <h3 className="font-bold text-lg py-2">Use of Your Personal Data</h3>
       <p>The Company may use Personal Data for the following purposes:</p>
       <ul>
         <li>
@@ -404,7 +404,7 @@ const page = () => {
           information for any other purpose with Your consent.
         </li>
       </ul>
-      <h3>Retention of Your Personal Data</h3>
+      <h3 className="font-bold text-lg py-2">Retention of Your Personal Data</h3>
       <p>
         The Company will retain Your Personal Data only for as long as is
         necessary for the purposes set out in this Privacy Policy. We will
@@ -420,7 +420,7 @@ const page = () => {
         functionality of Our Service, or We are legally obligated to retain this
         data for longer time periods.
       </p>
-      <h3>Transfer of Your Personal Data</h3>
+      <h3 className="font-bold text-lg py-2">Transfer of Your Personal Data</h3>
       <p>
         Your information, including Personal Data, is processed at the Company's
         operating offices and in any other places where the parties involved in
@@ -440,7 +440,7 @@ const page = () => {
         a country unless there are adequate controls in place including the
         security of Your data and other personal information.
       </p>
-      <h3>Delete Your Personal Data</h3>
+      <h3 className="font-bold text-lg py-2">Delete Your Personal Data</h3>
       <p>
         You have the right to delete or request that We assist in deleting the
         Personal Data that We have collected about You.
@@ -460,21 +460,21 @@ const page = () => {
         Please note, however, that We may need to retain certain information
         when we have a legal obligation or lawful basis to do so.
       </p>
-      <h3>Disclosure of Your Personal Data</h3>
-      <h4>Business Transactions</h4>
+      <h3 className="font-bold text-lg py-2">Disclosure of Your Personal Data</h3>
+      <h4 className="font-bold pt-4 text-lg">Business Transactions</h4>
       <p>
         If the Company is involved in a merger, acquisition or asset sale, Your
         Personal Data may be transferred. We will provide notice before Your
         Personal Data is transferred and becomes subject to a different Privacy
         Policy.
       </p>
-      <h4>Law enforcement</h4>
+      <h4 className="font-bold pt-4 text-lg">Law enforcement</h4>
       <p>
         Under certain circumstances, the Company may be required to disclose
         Your Personal Data if required to do so by law or in response to valid
         requests by public authorities (e.g. a court or a government agency).
       </p>
-      <h4>Other legal requirements</h4>
+      <h4 className="font-bold pt-4 text-lg">Other legal requirements</h4>
       <p>
         The Company may disclose Your Personal Data in the good faith belief
         that such action is necessary to:
@@ -491,7 +491,7 @@ const page = () => {
         </li>
         <li>Protect against legal liability</li>
       </ul>
-      <h3>Security of Your Personal Data</h3>
+      <h3 className="font-bold text-lg py-2">Security of Your Personal Data</h3>
       <p>
         The security of Your Personal Data is important to Us, but remember that
         no method of transmission over the Internet, or method of electronic
