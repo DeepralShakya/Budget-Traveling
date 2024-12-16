@@ -6,7 +6,9 @@ const Footer = () => {
       <div>
         <a href="/" className="mr-6">Home</a>
         <a href="#sidebar" className="mr-6">Popular Posts</a>
-        <a href="/privacy-policy" className="mr-6">Privacy Policy</a> {/* Added Privacy Policy link */}
+        <a href="/terms-of-service" className="mr-6">Terms of Service</a>
+        <a href="/privacy-policy" className="mr-6">Privacy Policy</a>
+        <a href="/contact" className="mr-6">Contact Us</a>
       </div>
       <p className="mt-4">© 2024 budget-traveling. All Rights Reserved.</p>
     </footer>
