@@ -10,7 +10,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-4 shadow-lg">
+    <nav className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-4 shadow-lg sticky top-0 z-50">
+
       <div className="container mx-auto flex justify-between items-center">
        
         <div className="flex items-center gap-3">
@@ -19,6 +20,14 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6">
+        <li>
+            <a
+              href="/"
+              className="hover:text-gray-400 transition duration-200 font-bold" 
+            >
+             Home
+            </a>
+          </li>
           <li>
             <a
               href="#introduction"
@@ -29,10 +38,18 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#sidebar"
+              href="#tips"
               className="hover:text-gray-400 transition duration-200 font-bold"
             >
-              Popular Posts
+              Budget Travel Tips
+            </a>
+          </li>
+          <li>
+            <a
+              href="/contact"
+              className="hover:text-gray-400 transition duration-200 font-bold"
+            >
+              Contact Us
             </a>
           </li>
         </ul>

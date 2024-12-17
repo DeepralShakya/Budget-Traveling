@@ -9,17 +9,19 @@ import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 import { FaCalendarAlt } from "react-icons/fa";
 import { MdCardTravel } from "react-icons/md";
+import ContentMore from "@/components/ContentMore";
 
 export default function Home() {
   return (
     <div className="bg-[url('/images/bg1.jpg')] bg-cover h-screen bg-center">
       <Navbar />
 
-      <div>
+      
         <Header />
-        <div className="container mx-auto px-4 md:px-8 md:flex gap-8">
-          <div className="w-full md:w-3/4">
+        <div className="flex flex-col container mx-auto px-4 md:px-8 md:flex gap-8">
+          
             <Introduction />
+            <ContentMore />
 
             <div className="grid gap-8">
               <ContentSection
@@ -44,11 +46,6 @@ export default function Home() {
 
             <ConclusionSection />
           </div>
-          <div className="w-full md:w-1/4">
-            <Sidebar />
-          </div>
-        </div>
-      </div>
       <Footer />
     </div>
   );
