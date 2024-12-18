@@ -13,10 +13,7 @@ import ContentMore from "@/components/ContentMore";
 
 export default function Home() {
   return (
-    <div className="bg-[url('/images/bg1.jpg')] bg-cover h-screen bg-center">
-      <Navbar />
-
-      
+    <div className="bg-[url('/images/bg1.jpg')] bg-cover h-screen bg-center">     
         <Header />
         <div className="flex flex-col container mx-auto px-4 md:px-8 md:flex gap-8">
           

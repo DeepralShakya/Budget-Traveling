@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#introduction"
+              href="/#introduction"
               className="hover:text-gray-400 transition duration-200 font-bold" 
             >
               Get Started
@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#tips"
+              href="/#tips"
               className="hover:text-gray-400 transition duration-200 font-bold"
             >
               Budget Travel Tips
