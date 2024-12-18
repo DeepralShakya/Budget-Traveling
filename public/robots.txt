@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://budget-traveling.vercel.app
+
+# Sitemaps
+Sitemap: https://budget-traveling.vercel.app/sitemap.xml
